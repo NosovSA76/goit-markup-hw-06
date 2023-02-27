@@ -681,19 +681,13 @@ textarea:focus-visible{
    height: 16px;
    border-radius: 2px;
    margin: 0 8px 0 0;
-  
+  border: 1px solid var(--title-text-color);
 }
 
  #myElement {
-    background-color: #404BBF;
-    border: none;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   
- }
-  
-  #myElement.no-border {
-    background-color: #ffffff;
-    border: 1px solid var(--title-text-color);}
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
 
 .accept-policy{
     font-size: 12px;
