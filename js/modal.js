@@ -13,17 +13,17 @@
   }
 })();
 
- const myElement = document.getElementById("myElement");
-      let count = 0;
+//  const myElement = document.getElementById("myElement");
+//       let count = 0;
 
-      myElement.onclick = function () {
-        count++;
-        if (count % 2 === 0) {
-          myElement.style.backgroundColor = "#ffffff";
-          myElement.style.border = "1px solid var(--title-text-color)";
+//       myElement.onclick = function () {
+//         count++;
+//         if (count % 2 === 0) {
+//           myElement.style.backgroundColor = "#ffffff";
+//           myElement.style.border = "1px solid var(--title-text-color)";
          
-        } else {
-           myElement.style.backgroundColor = "#404BBF";
-          myElement.style.border = "none";
-        }
-      };
+//         } else {
+//            myElement.style.backgroundColor = "#404BBF";
+//           myElement.style.border = "none";
+//         }
+//       };
